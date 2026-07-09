@@ -39,7 +39,7 @@ export default function QuestionCard({ index, row }) {
         </button>
       ) : (
         <div className="mt-3 border-t border-line pt-3">
-          <p className="italic leading-relaxed text-muted">
+          <p className="leading-relaxed text-muted">
             {row["Suggested Answer"]}
           </p>
           <button
